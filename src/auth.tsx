@@ -122,7 +122,7 @@ export interface SignInCheckOptionsClaimsValidator extends SignInCheckOptionsBas
  * ```
  */
 export function useSigninCheck(
-  options?: SignInCheckOptionsBasic | SignInCheckOptionsClaimsObject | SignInCheckOptionsClaimsValidator
+  options?: SignInCheckOptionsBasic | SignInCheckOptionsClaimsObject | SignInCheckOptionsClaimsValidator,
 ): ObservableStatus<SigninCheckResult> {
   // If both `requiredClaims` and `validateCustomClaims` are provided, we won't know which one to use
   if (options?.hasOwnProperty('requiredClaims') && options?.hasOwnProperty('validateCustomClaims')) {
@@ -163,14 +163,14 @@ export function useSigninCheck(
 
             const result: SigninCheckResult = { signedIn: true, hasRequiredClaims, errors, user: user };
             return result;
-          })
+          }),
         );
       } else {
         // If no claims are provided to be checked, `hasRequiredClaims` is true
         const result: SigninCheckResult = { signedIn: true, hasRequiredClaims: true, errors: {}, user: user };
         return of(result);
       }
-    })
+    }),
   );
 
   return useObservable(observableId, observable, options);
@@ -202,11 +202,11 @@ function getClaimsObjectValidator(requiredClaims: Claims): ClaimsValidator {
  */
 export function ClaimsCheck({ user, fallback, children, requiredClaims }: ClaimsCheckProps) {
   const { data, status, error } = useIdTokenResult(user, false);
-  
+
   if (status === 'loading') {
     throw new Error('ClaimsCheck must be run in Suspense mode');
   } else if (status === 'error') {
-    throw error
+    throw error;
   }
 
   const { claims } = data;
@@ -215,7 +215,7 @@ export function ClaimsCheck({ user, fallback, children, requiredClaims }: Claims
   const suspenseMode = useSuspenseEnabledFromConfigAndContext();
   if (!suspenseMode) {
     console.warn(
-      'ClaimsCheck is deprecated and only works when ReactFire is in experimental Suspense Mode. Use useSigninCheck or set suspense={true} in FirebaseAppProvider if you want to use this component.'
+      'ClaimsCheck is deprecated and only works when ReactFire is in experimental Suspense Mode. Use useSigninCheck or set suspense={true} in FirebaseAppProvider if you want to use this component.',
     );
   }
 
@@ -250,7 +250,7 @@ export function AuthCheck({ fallback, children, requiredClaims }: AuthCheckProps
   const suspenseMode = useSuspenseEnabledFromConfigAndContext();
   if (!suspenseMode) {
     console.warn(
-      'AuthCheck is deprecated and only works when ReactFire is in experimental Suspense Mode. Use useSigninCheck or set suspense={true} in FirebaseAppProvider if you want to use this component.'
+      'AuthCheck is deprecated and only works when ReactFire is in experimental Suspense Mode. Use useSigninCheck or set suspense={true} in FirebaseAppProvider if you want to use this component.',
     );
   }
 

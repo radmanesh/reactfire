@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/performance.tsx:4](https://github.com/FirebaseExtended/reactfire/blob/main/src/performance.tsx#L4)
+[src/performance.tsx:4](https://github.com/radmanesh/reactfire/blob/main/src/performance.tsx#L4)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/performance.tsx:6](https://github.com/FirebaseExtended/reactfire/blob/main/src/performance.tsx#L6)
+[src/performance.tsx:6](https://github.com/radmanesh/reactfire/blob/main/src/performance.tsx#L6)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[src/performance.tsx:5](https://github.com/FirebaseExtended/reactfire/blob/main/src/performance.tsx#L5)
+[src/performance.tsx:5](https://github.com/radmanesh/reactfire/blob/main/src/performance.tsx#L5)

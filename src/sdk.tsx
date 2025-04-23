@@ -53,7 +53,7 @@ function useInitSdk<Sdk extends FirebaseSdks>(
   sdkName: string,
   SdkContext: React.Context<Sdk | undefined>,
   sdkInitializer: (firebaseApp: FirebaseApp) => Promise<Sdk>,
-  options?: ReactFireOptions
+  options?: ReactFireOptions,
 ) {
   const firebaseApp = useFirebaseApp();
 
@@ -91,7 +91,7 @@ export const useRemoteConfig = () => useSdk<RemoteConfig>(RemoteConfigSdkContext
 
 type InitSdkHook<Sdk extends FirebaseSdks> = (
   initializer: (firebaseApp: FirebaseApp) => Promise<Sdk>,
-  options?: ReactFireOptions<Sdk>
+  options?: ReactFireOptions<Sdk>,
 ) => ObservableStatus<Sdk>;
 
 export const useInitAppCheck: InitSdkHook<AppCheck> = (initializer, options) => useInitSdk<AppCheck>('appcheck', AppCheckSdkContext, initializer, options);

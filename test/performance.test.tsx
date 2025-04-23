@@ -74,7 +74,7 @@ describe('SuspenseWithPerf', () => {
       <>
         <SuspenseComp />
         <SuspenseWithPerfComp />
-      </>
+      </>,
     );
 
     expect(queryAllByTestId('fallback').length).toEqual(2);
@@ -95,7 +95,7 @@ describe('SuspenseWithPerf', () => {
         <SuspenseWithPerf traceId={traceName} fallback={'loading'}>
           <PromiseThrower />
         </SuspenseWithPerf>
-      </Provider>
+      </Provider>,
     );
 
     expect(mark).toBeCalledWith('_traceStart[0]');
@@ -128,7 +128,7 @@ describe('SuspenseWithPerf', () => {
         <SuspenseWithPerf fallback={<Fallback />} traceId="test lifecycle">
           <Comp />
         </SuspenseWithPerf>
-      </Provider>
+      </Provider>,
     );
 
     expect(getByTestId('fallback')).toBeInTheDocument();

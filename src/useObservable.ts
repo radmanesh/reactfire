@@ -100,7 +100,8 @@ export function useObservable<T = unknown>(observableId: string, source: Observa
     throw observable.firstEmission;
   }
 
-  const subscribe = React.useCallback((onStoreChange: () => void) => {
+  const subscribe = React.useCallback(
+    (onStoreChange: () => void) => {
       const subscription = observable.subscribe({
         next: () => {
           onStoreChange();
@@ -116,8 +117,10 @@ export function useObservable<T = unknown>(observableId: string, source: Observa
 
       return () => {
         subscription.unsubscribe();
-      }
-  }, [observable])
+      };
+    },
+    [observable],
+  );
 
   const getSnapshot = React.useCallback<() => ObservableStatus<T>>(() => {
     return observable.immutableStatus;

@@ -1,7 +1,7 @@
 import { renderHook, act, cleanup, waitFor } from '@testing-library/react';
 
 import * as React from 'react';
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 import {
   useFirestoreDoc,
   useFirestoreCollection,
@@ -35,7 +35,7 @@ describe('Firestore', () => {
 
     // clear all Firestore emulator data
     // do this AFTER cleaning up hooks, otherwise they'll re-emit values
-    await fetch(`http://localhost:8085/emulator/v1/projects/rxfire-525a3/databases/(default)/documents`, { method: 'DELETE' });
+    await fetch(`http://localhost:8085/emulator/v1/projects/testing-929ad/databases/(default)/documents`, { method: 'DELETE' });
   });
 
   test('double check - emulator is running', async () => {
@@ -127,7 +127,7 @@ describe('Firestore', () => {
         {
           wrapper: Provider,
           initialProps: { docRef: firstRef },
-        }
+        },
       );
 
       // ensure first ref's data is loaded
@@ -272,7 +272,7 @@ describe('Firestore', () => {
           useFirestoreCollectionData<any>(filteredRef, {
             idField: 'id',
           }),
-        { wrapper: Provider }
+        { wrapper: Provider },
       );
 
       await waitFor(() => expect(unfilteredResult.current.status).toEqual('success'));

@@ -37,7 +37,7 @@ ObservableStatusBase.data
 
 #### Defined in
 
-[src/useObservable.ts:69](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L69)
+[src/useObservable.ts:69](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L69)
 
 ___
 
@@ -53,7 +53,7 @@ ObservableStatusBase.error
 
 #### Defined in
 
-[src/useObservable.ts:60](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L60)
+[src/useObservable.ts:60](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L60)
 
 ___
 
@@ -69,7 +69,7 @@ ObservableStatusBase.firstValuePromise
 
 #### Defined in
 
-[src/useObservable.ts:64](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L64)
+[src/useObservable.ts:64](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L64)
 
 ___
 
@@ -87,7 +87,7 @@ ObservableStatusBase.hasEmitted
 
 #### Defined in
 
-[src/useObservable.ts:46](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L46)
+[src/useObservable.ts:46](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L46)
 
 ___
 
@@ -103,7 +103,7 @@ ObservableStatusBase.isComplete
 
 #### Defined in
 
-[src/useObservable.ts:50](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L50)
+[src/useObservable.ts:50](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L50)
 
 ___
 
@@ -117,4 +117,4 @@ ObservableStatusBase.status
 
 #### Defined in
 
-[src/useObservable.ts:68](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L68)
+[src/useObservable.ts:68](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L68)

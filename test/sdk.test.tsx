@@ -24,13 +24,15 @@ describe('Sdk management', () => {
       const errorLog = vi.spyOn(console, 'error');
       errorLog.mockImplementation(() => {});
 
-      expect(() => renderHook(() => useAuth(), {
-        wrapper: ({ children }) => (
-          <FirebaseAppProvider firebaseApp={app2}>
-            <AuthProvider sdk={authInstance}>{children}</AuthProvider>
-          </FirebaseAppProvider>
-        ),
-      })).toThrow(Error('sdk was initialized with a different firebase app'));
+      expect(() =>
+        renderHook(() => useAuth(), {
+          wrapper: ({ children }) => (
+            <FirebaseAppProvider firebaseApp={app2}>
+              <AuthProvider sdk={authInstance}>{children}</AuthProvider>
+            </FirebaseAppProvider>
+          ),
+        }),
+      ).toThrow(Error('sdk was initialized with a different firebase app'));
 
       errorLog.mockRestore();
     });

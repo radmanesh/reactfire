@@ -124,7 +124,7 @@ ReactFire reference docs
 
 #### Defined in
 
-[src/useObservable.ts:84](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L84)
+[src/useObservable.ts:84](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L84)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:6](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L6)
+[src/index.ts:6](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L6)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-[src/auth.tsx:59](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L59)
+[src/auth.tsx:59](https://github.com/radmanesh/reactfire/blob/main/src/auth.tsx#L59)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[src/storage.tsx:36](https://github.com/FirebaseExtended/reactfire/blob/main/src/storage.tsx#L36)
+[src/storage.tsx:36](https://github.com/radmanesh/reactfire/blob/main/src/storage.tsx#L36)
 
 ## Variables
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:20](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L20)
+[src/sdk.tsx:20](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L20)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:18](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L18)
+[src/sdk.tsx:18](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L18)
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:19](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L19)
+[src/sdk.tsx:19](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L19)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:21](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L21)
+[src/sdk.tsx:21](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L21)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:22](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L22)
+[src/sdk.tsx:22](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L22)
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:23](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L23)
+[src/sdk.tsx:23](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L23)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:25](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L25)
+[src/sdk.tsx:25](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L25)
 
 ___
 
@@ -251,7 +251,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:26](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L26)
+[src/sdk.tsx:26](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L26)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:24](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L24)
+[src/sdk.tsx:24](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L24)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:20](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L20)
+[src/firebaseApp.tsx:20](https://github.com/radmanesh/reactfire/blob/main/src/firebaseApp.tsx#L20)
 
 ## Functions
 
@@ -291,7 +291,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -311,7 +311,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -339,7 +339,7 @@ Meant for Concurrent mode only (`<FirebaseAppProvider suspense=true />`). [More 
 
 #### Defined in
 
-[src/auth.tsx:247](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L247)
+[src/auth.tsx:247](https://github.com/radmanesh/reactfire/blob/main/src/auth.tsx#L247)
 
 ___
 
@@ -359,7 +359,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -387,7 +387,7 @@ Meant for Concurrent mode only (`<FirebaseAppProvider suspense=true />`). [More 
 
 #### Defined in
 
-[src/auth.tsx:203](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L203)
+[src/auth.tsx:203](https://github.com/radmanesh/reactfire/blob/main/src/auth.tsx#L203)
 
 ___
 
@@ -407,7 +407,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -427,7 +427,7 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:24](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L24)
+[src/firebaseApp.tsx:24](https://github.com/radmanesh/reactfire/blob/main/src/firebaseApp.tsx#L24)
 
 ___
 
@@ -447,7 +447,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -467,7 +467,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -487,7 +487,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -507,7 +507,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -527,7 +527,7 @@ ___
 
 #### Defined in
 
-[src/storage.tsx:78](https://github.com/FirebaseExtended/reactfire/blob/main/src/storage.tsx#L78)
+[src/storage.tsx:78](https://github.com/radmanesh/reactfire/blob/main/src/storage.tsx#L78)
 
 ___
 
@@ -547,7 +547,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -567,7 +567,7 @@ ___
 
 #### Defined in
 
-[src/performance.tsx:9](https://github.com/FirebaseExtended/reactfire/blob/main/src/performance.tsx#L9)
+[src/performance.tsx:9](https://github.com/radmanesh/reactfire/blob/main/src/performance.tsx#L9)
 
 ___
 
@@ -587,7 +587,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:47](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L47)
+[src/index.ts:47](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L47)
 
 ___
 
@@ -608,7 +608,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:34](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L34)
+[src/index.ts:34](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L34)
 
 ___
 
@@ -628,7 +628,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:43](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L43)
+[src/index.ts:43](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L43)
 
 ___
 
@@ -652,7 +652,7 @@ Use this to warm up `useFirestoreDoc` for a specific document
 
 #### Defined in
 
-[src/firestore.tsx:28](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L28)
+[src/firestore.tsx:28](https://github.com/radmanesh/reactfire/blob/main/src/firestore.tsx#L28)
 
 ___
 
@@ -680,7 +680,7 @@ ___
 
 #### Defined in
 
-[src/useObservable.ts:20](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L20)
+[src/useObservable.ts:20](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L20)
 
 ___
 
@@ -700,7 +700,7 @@ ___
 
 #### Defined in
 
-[src/auth.tsx:11](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L11)
+[src/auth.tsx:11](https://github.com/radmanesh/reactfire/blob/main/src/auth.tsx#L11)
 
 ___
 
@@ -714,7 +714,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:84](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L84)
+[src/sdk.tsx:84](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L84)
 
 ___
 
@@ -728,7 +728,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:82](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L82)
+[src/sdk.tsx:82](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L82)
 
 ___
 
@@ -742,7 +742,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:83](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L83)
+[src/sdk.tsx:83](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L83)
 
 ___
 
@@ -772,7 +772,7 @@ Calls a callable function.
 
 #### Defined in
 
-[src/functions.tsx:13](https://github.com/FirebaseExtended/reactfire/blob/main/src/functions.tsx#L13)
+[src/functions.tsx:13](https://github.com/radmanesh/reactfire/blob/main/src/functions.tsx#L13)
 
 ___
 
@@ -786,7 +786,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:85](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L85)
+[src/sdk.tsx:85](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L85)
 
 ___
 
@@ -815,7 +815,7 @@ Subscribe to a Realtime Database list
 
 #### Defined in
 
-[src/database.tsx:48](https://github.com/FirebaseExtended/reactfire/blob/main/src/database.tsx#L48)
+[src/database.tsx:48](https://github.com/radmanesh/reactfire/blob/main/src/database.tsx#L48)
 
 ___
 
@@ -842,7 +842,7 @@ ___
 
 #### Defined in
 
-[src/database.tsx:58](https://github.com/FirebaseExtended/reactfire/blob/main/src/database.tsx#L58)
+[src/database.tsx:58](https://github.com/radmanesh/reactfire/blob/main/src/database.tsx#L58)
 
 ___
 
@@ -871,7 +871,7 @@ Subscribe to a Realtime Database object
 
 #### Defined in
 
-[src/database.tsx:27](https://github.com/FirebaseExtended/reactfire/blob/main/src/database.tsx#L27)
+[src/database.tsx:27](https://github.com/radmanesh/reactfire/blob/main/src/database.tsx#L27)
 
 ___
 
@@ -898,7 +898,7 @@ ___
 
 #### Defined in
 
-[src/database.tsx:34](https://github.com/FirebaseExtended/reactfire/blob/main/src/database.tsx#L34)
+[src/database.tsx:34](https://github.com/radmanesh/reactfire/blob/main/src/database.tsx#L34)
 
 ___
 
@@ -912,7 +912,7 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:78](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L78)
+[src/firebaseApp.tsx:78](https://github.com/radmanesh/reactfire/blob/main/src/firebaseApp.tsx#L78)
 
 ___
 
@@ -926,7 +926,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:86](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L86)
+[src/sdk.tsx:86](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L86)
 
 ___
 
@@ -955,7 +955,7 @@ Subscribe to a Firestore collection
 
 #### Defined in
 
-[src/firestore.tsx:86](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L86)
+[src/firestore.tsx:86](https://github.com/radmanesh/reactfire/blob/main/src/firestore.tsx#L86)
 
 ___
 
@@ -984,7 +984,7 @@ Subscribe to a Firestore collection and unwrap the snapshot into an array.
 
 #### Defined in
 
-[src/firestore.tsx:96](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L96)
+[src/firestore.tsx:96](https://github.com/radmanesh/reactfire/blob/main/src/firestore.tsx#L96)
 
 ___
 
@@ -1015,7 +1015,7 @@ You can preload data for this hook by calling `preloadFirestoreDoc`
 
 #### Defined in
 
-[src/firestore.tsx:42](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L42)
+[src/firestore.tsx:42](https://github.com/radmanesh/reactfire/blob/main/src/firestore.tsx#L42)
 
 ___
 
@@ -1044,7 +1044,7 @@ Subscribe to Firestore Document changes and unwrap the document into a plain obj
 
 #### Defined in
 
-[src/firestore.tsx:62](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L62)
+[src/firestore.tsx:62](https://github.com/radmanesh/reactfire/blob/main/src/firestore.tsx#L62)
 
 ___
 
@@ -1073,7 +1073,7 @@ Get a Firestore document, unwrap the document into a plain object, and don't sub
 
 #### Defined in
 
-[src/firestore.tsx:74](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L74)
+[src/firestore.tsx:74](https://github.com/radmanesh/reactfire/blob/main/src/firestore.tsx#L74)
 
 ___
 
@@ -1102,7 +1102,7 @@ Get a firestore document and don't subscribe to changes
 
 #### Defined in
 
-[src/firestore.tsx:52](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L52)
+[src/firestore.tsx:52](https://github.com/radmanesh/reactfire/blob/main/src/firestore.tsx#L52)
 
 ___
 
@@ -1116,7 +1116,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:87](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L87)
+[src/sdk.tsx:87](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L87)
 
 ___
 
@@ -1138,7 +1138,7 @@ ___
 
 #### Defined in
 
-[src/auth.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L31)
+[src/auth.tsx:31](https://github.com/radmanesh/reactfire/blob/main/src/auth.tsx#L31)
 
 ___
 
@@ -1159,7 +1159,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1180,7 +1180,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1201,7 +1201,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1222,7 +1222,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1243,7 +1243,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1264,7 +1264,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1285,7 +1285,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1306,7 +1306,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1327,7 +1327,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1341,7 +1341,7 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:60](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L60)
+[src/firebaseApp.tsx:60](https://github.com/radmanesh/reactfire/blob/main/src/firebaseApp.tsx#L60)
 
 ___
 
@@ -1369,7 +1369,7 @@ ___
 
 #### Defined in
 
-[src/useObservable.ts:86](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L86)
+[src/useObservable.ts:86](https://github.com/radmanesh/reactfire/blob/main/src/useObservable.ts#L86)
 
 ___
 
@@ -1383,7 +1383,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:88](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L88)
+[src/sdk.tsx:88](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L88)
 
 ___
 
@@ -1397,7 +1397,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:90](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L90)
+[src/sdk.tsx:90](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L90)
 
 ___
 
@@ -1419,7 +1419,7 @@ Convience method similar to useRemoteConfigValue. Returns allRemote Config param
 
 #### Defined in
 
-[src/remote-config.tsx:66](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L66)
+[src/remote-config.tsx:66](https://github.com/radmanesh/reactfire/blob/main/src/remote-config.tsx#L66)
 
 ___
 
@@ -1441,7 +1441,7 @@ Convience method similar to useRemoteConfigValue. Returns a `boolean` from a Rem
 
 #### Defined in
 
-[src/remote-config.tsx:58](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L58)
+[src/remote-config.tsx:58](https://github.com/radmanesh/reactfire/blob/main/src/remote-config.tsx#L58)
 
 ___
 
@@ -1463,7 +1463,7 @@ Convience method similar to useRemoteConfigValue. Returns a `number` from a Remo
 
 #### Defined in
 
-[src/remote-config.tsx:50](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L50)
+[src/remote-config.tsx:50](https://github.com/radmanesh/reactfire/blob/main/src/remote-config.tsx#L50)
 
 ___
 
@@ -1485,7 +1485,7 @@ Convience method similar to useRemoteConfigValue. Returns a `string` from a Remo
 
 #### Defined in
 
-[src/remote-config.tsx:42](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L42)
+[src/remote-config.tsx:42](https://github.com/radmanesh/reactfire/blob/main/src/remote-config.tsx#L42)
 
 ___
 
@@ -1508,7 +1508,7 @@ Remote Config Value.
 
 #### Defined in
 
-[src/remote-config.tsx:34](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L34)
+[src/remote-config.tsx:34](https://github.com/radmanesh/reactfire/blob/main/src/remote-config.tsx#L34)
 
 ___
 
@@ -1558,7 +1558,7 @@ const {status, data: signInCheckResult} = useSigninCheck({forceRefresh: true, re
 
 #### Defined in
 
-[src/auth.tsx:124](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L124)
+[src/auth.tsx:124](https://github.com/radmanesh/reactfire/blob/main/src/auth.tsx#L124)
 
 ___
 
@@ -1572,7 +1572,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:89](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L89)
+[src/sdk.tsx:89](https://github.com/radmanesh/reactfire/blob/main/src/sdk.tsx#L89)
 
 ___
 
@@ -1601,7 +1601,7 @@ Subscribe to a storage ref's download URL
 
 #### Defined in
 
-[src/storage.tsx:29](https://github.com/FirebaseExtended/reactfire/blob/main/src/storage.tsx#L29)
+[src/storage.tsx:29](https://github.com/radmanesh/reactfire/blob/main/src/storage.tsx#L29)
 
 ___
 
@@ -1631,7 +1631,7 @@ Subscribe to the progress of a storage task
 
 #### Defined in
 
-[src/storage.tsx:16](https://github.com/FirebaseExtended/reactfire/blob/main/src/storage.tsx#L16)
+[src/storage.tsx:16](https://github.com/radmanesh/reactfire/blob/main/src/storage.tsx#L16)
 
 ___
 
@@ -1651,7 +1651,7 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:67](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L67)
+[src/firebaseApp.tsx:67](https://github.com/radmanesh/reactfire/blob/main/src/firebaseApp.tsx#L67)
 
 ___
 
@@ -1679,4 +1679,4 @@ Subscribe to Firebase auth state changes, including token refresh
 
 #### Defined in
 
-[src/auth.tsx:22](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L22)
+[src/auth.tsx:22](https://github.com/radmanesh/reactfire/blob/main/src/auth.tsx#L22)

@@ -47,7 +47,7 @@ export function useDatabaseObjectData<T>(ref: DatabaseReference, options?: React
  */
 export function useDatabaseList<T = { [key: string]: unknown }>(
   ref: DatabaseReference | DatabaseQuery,
-  options?: ReactFireOptions<T[]>
+  options?: ReactFireOptions<T[]>,
 ): ObservableStatus<QueryChange[] | T[]> {
   const hash = `database:list:${getUniqueIdForDatabaseQuery(ref)}`;
   const observable$ = list(ref);
@@ -57,7 +57,7 @@ export function useDatabaseList<T = { [key: string]: unknown }>(
 
 export function useDatabaseListData<T = { [key: string]: unknown }>(
   ref: DatabaseReference | DatabaseQuery,
-  options?: ReactFireOptions<T[]>
+  options?: ReactFireOptions<T[]>,
 ): ObservableStatus<T[] | null> {
   const idField = options ? checkIdField(options) : 'NO_ID_FIELD';
   const observableId = `database:listVal:${getUniqueIdForDatabaseQuery(ref)}:idField=${idField}`;

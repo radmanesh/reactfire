@@ -65,7 +65,7 @@ function INTERNALStorageImage(props: StorageImageProps & React.DetailedHTMLProps
     if (!(imgProps.alt || imgProps.alt === '')) {
       console.warn(
         `No alt prop provided for StorageImage with storagePath "${storagePath}"`,
-        'img elements must have an alt prop, either with meaningful text, or an empty string for decorative images'
+        'img elements must have an alt prop, either with meaningful text, or an empty string for decorative images',
       );
     }
 

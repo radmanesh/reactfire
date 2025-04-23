@@ -12,7 +12,7 @@ describe('Storage', () => {
   const storage = getStorage(app);
   connectStorageEmulator(storage, 'localhost', 9199);
 
-  const Provider: FunctionComponent<{children: React.ReactNode}> = ({ children }) => (
+  const Provider: FunctionComponent<{ children: React.ReactNode }> = ({ children }) => (
     <FirebaseAppProvider firebaseApp={app}>
       <StorageProvider sdk={storage}>{children}</StorageProvider>
     </FirebaseAppProvider>
@@ -36,24 +36,24 @@ describe('Storage', () => {
           uploadTaskSnapshots.push(snap);
         },
         (e) => {
-          throw e
+          throw e;
         },
         () => {
           hasUploadTaskCompleted = true;
-        }
+        },
       );
 
       // check that the first update  matches
       await waitFor(() => {
-        expect(result.current.data).toEqual(uploadTaskSnapshots[0])
-      })
+        expect(result.current.data).toEqual(uploadTaskSnapshots[0]);
+      });
 
       // check that all bytes are accounted for when upload is marked as complete
       await waitFor(() => {
         expect(hasUploadTaskCompleted).toEqual(true);
         expect(result.current.isComplete).toEqual(true);
-        expect(result.current.data.bytesTransferred).toEqual(result.current.data.totalBytes)
-      })      
+        expect(result.current.data.bytesTransferred).toEqual(result.current.data.totalBytes);
+      });
     });
   });
 

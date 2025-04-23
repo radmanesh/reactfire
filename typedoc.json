@@ -3,7 +3,7 @@
   "out": "./docs/reference",
   "gitRevision": "main",
   "readme": "none",
-  "plugin": "typedoc-plugin-markdown",
+  "plugin": ["typedoc-plugin-markdown"],
   "name": "ReactFire reference docs",
   "githubPages": false
 }

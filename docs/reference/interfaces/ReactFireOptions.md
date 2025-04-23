@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[src/index.ts:25](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L25)
+[src/index.ts:25](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L25)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:26](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L26)
+[src/index.ts:26](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L26)
 
 ___
 
@@ -55,7 +55,7 @@ use initialData instead
 
 #### Defined in
 
-[src/index.ts:30](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L30)
+[src/index.ts:30](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L30)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 #### Defined in
 
-[src/index.ts:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L31)
+[src/index.ts:31](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L31)

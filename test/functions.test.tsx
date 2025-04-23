@@ -12,7 +12,7 @@ describe('Functions', () => {
   const functions = getFunctions(app);
   connectFunctionsEmulator(functions, 'localhost', 5001);
 
-  const Provider: FunctionComponent<{children: React.ReactNode}> = ({ children }) => (
+  const Provider: FunctionComponent<{ children: React.ReactNode }> = ({ children }) => (
     <FirebaseAppProvider firebaseApp={app}>
       <FunctionsProvider sdk={functions}>{children}</FunctionsProvider>
     </FirebaseAppProvider>

@@ -1,5 +1,5 @@
 import { cleanup, render, waitFor, renderHook, act } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 import * as React from 'react';
 import {
   FirebaseAppProvider,
@@ -297,7 +297,7 @@ describe('Authentication', () => {
           <AuthCheckWrapper>
             <UserDetails />
           </AuthCheckWrapper>
-        </>
+        </>,
       );
     });
 

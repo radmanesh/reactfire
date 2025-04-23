@@ -35,7 +35,7 @@ export function FirebaseAppProvider(props: React.PropsWithChildren<FirebaseAppPr
         return existingApp;
       } else {
         throw new Error(
-          `Does not match the options already provided to the ${appName || 'default'} firebase app instance, give this new instance a different appName.`
+          `Does not match the options already provided to the ${appName || 'default'} firebase app instance, give this new instance a different appName.`,
         );
       }
     } else {

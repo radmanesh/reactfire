@@ -12,7 +12,11 @@ export type ReactFireGlobals = {
 export class ReactFireError extends Error {
   readonly name = 'ReactFireError';
 
-  constructor(readonly code: string, message: string, public customData?: Record<string, unknown>) {
+  constructor(
+    readonly code: string,
+    message: string,
+    public customData?: Record<string, unknown>,
+  ) {
     super(message);
 
     // Fix For ES5

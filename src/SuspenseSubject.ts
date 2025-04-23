@@ -18,7 +18,11 @@ export class SuspenseSubject<T> extends Subject<T> {
   // @ts-expect-error: TODO: double check to see if this is an RXJS thing or if we should listen to TS
   private _resolveFirstEmission: () => void;
 
-  constructor(innerObservable: Observable<T>, private _timeoutWindow: number, private _suspenseEnabled: boolean) {
+  constructor(
+    innerObservable: Observable<T>,
+    private _timeoutWindow: number,
+    private _suspenseEnabled: boolean,
+  ) {
     super();
     this._firstEmission = new Promise<void>((resolve) => (this._resolveFirstEmission = resolve));
 
@@ -28,7 +32,7 @@ export class SuspenseSubject<T> extends Subject<T> {
       isComplete: false,
       data: undefined,
       error: undefined,
-      firstValuePromise: this._firstEmission
+      firstValuePromise: this._firstEmission,
     };
 
     this._innerObservable = innerObservable.pipe(
@@ -46,10 +50,10 @@ export class SuspenseSubject<T> extends Subject<T> {
         complete: () => {
           this._isComplete = true;
           this._updateImmutableStatus();
-        }
+        },
       }),
       catchError(() => empty()),
-      shareReplay(1)
+      shareReplay(1),
     );
     // warm up the observable
     this._warmupSubscription = this._innerObservable.subscribe();
@@ -94,12 +98,12 @@ export class SuspenseSubject<T> extends Subject<T> {
     // code for here, so the relationships between the ObservableStatus fields
     // are mostly checked in tests instead
     this._immutableStatus = {
-      status: this._error ? 'error' : (this._hasValue ? 'success' : 'loading'),
+      status: this._error ? 'error' : this._hasValue ? 'success' : 'loading',
       hasEmitted: this._hasValue,
       isComplete: this._isComplete,
       data: this._value,
       error: this._error,
-      firstValuePromise: this._firstEmission
+      firstValuePromise: this._firstEmission,
     };
   }
 

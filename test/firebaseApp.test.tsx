@@ -1,6 +1,6 @@
 import { cleanup, render, waitFor, renderHook } from '@testing-library/react';
 import { initializeApp, deleteApp, getApps } from 'firebase/app';
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 import * as React from 'react';
 import { useFirebaseApp, FirebaseAppProvider, version } from '../src/index';
 import pkg from '../package.json';
@@ -36,7 +36,9 @@ describe('useFirebaseApp', () => {
   it('finds firebase from Context', () => {
     const firebaseApp = initializeApp(DEFAULT_APP_CONFIG, 'context-test');
 
-    const wrapper: React.FunctionComponent<{children: React.ReactNode}> = ({ children }) => <FirebaseAppProvider firebaseApp={firebaseApp}>{children}</FirebaseAppProvider>;
+    const wrapper: React.FunctionComponent<{ children: React.ReactNode }> = ({ children }) => (
+      <FirebaseAppProvider firebaseApp={firebaseApp}>{children}</FirebaseAppProvider>
+    );
 
     const { result } = renderHook(() => useFirebaseApp(), { wrapper });
     expect(result.current).toBe(firebaseApp);
@@ -77,7 +79,9 @@ describe('useFirebaseApp', () => {
       </div>
     );
 
-    expect(() => renderHook(() => useFirebaseApp(), { wrapper })).toThrow(Error('Does not match the options already provided to the default firebase app instance, give this new instance a different appName.'))
+    expect(() => renderHook(() => useFirebaseApp(), { wrapper })).toThrow(
+      Error('Does not match the options already provided to the default firebase app instance, give this new instance a different appName.'),
+    );
 
     await waitFor(() => expect(getApps().length).toEqual(1));
 
@@ -89,7 +93,7 @@ describe('useFirebaseApp', () => {
     // https://github.com/facebook/react/issues/11098#issuecomment-523977830
     const spy = vi.spyOn(console, 'error');
     spy.mockImplementation(() => {});
-    expect(() =>renderHook(() => useFirebaseApp())).toThrow();
+    expect(() => renderHook(() => useFirebaseApp())).toThrow();
 
     // spy.mockRestore();
   });

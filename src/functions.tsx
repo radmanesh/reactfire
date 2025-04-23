@@ -15,7 +15,7 @@ export function useCallableFunctionResponse<RequestData, ResponseData>(
   options?: ReactFireOptions<ResponseData> & {
     httpsCallableOptions?: HttpsCallableOptions;
     data?: RequestData;
-  }
+  },
 ): ObservableStatus<ResponseData> {
   const functions = useFunctions();
   const observableId = `functions:callableResponse:${functionName}:${JSON.stringify(options?.data)}:${JSON.stringify(options?.httpsCallableOptions)}`;

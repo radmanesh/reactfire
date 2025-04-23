@@ -1,4 +1,4 @@
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 import { act, cleanup, render, renderHook, waitFor } from '@testing-library/react';
 import * as React from 'react';
 import { of, Subject, BehaviorSubject, throwError } from 'rxjs';
@@ -76,12 +76,16 @@ describe('useObservable', () => {
     });
 
     it('does not show stale data after navigating away', async () => {
+      // Value to initialize the observable with
       const startVal = 'start';
+      // New value that will be emitted while component is unmounted
       const newVal = 'anotherValue';
+      // Observable that will emit values to our component
       const observable$ = new BehaviorSubject(startVal);
 
       // a component that subscribes to the observable
       const Comp = () => {
+        // Hook that observes the observable stream
         const { data } = useObservable('test-stale-on-rerender', observable$, { suspense: false });
 
         return <span data-testid="comp">{`${data}`}</span>;
@@ -111,8 +115,9 @@ describe('useObservable', () => {
 
       // render the child again and make sure it has the new value, not a stale one
       rerender(<ConditionalRenderer renderChildren={true} />);
-      await findByTestId('comp');
-      expect(element).toHaveTextContent(startVal);
+      // Get a fresh reference to the component after re-rendering
+      const updatedElement = await findByTestId('comp');
+      expect(updatedElement).toHaveTextContent(newVal); // FIX: Should expect newVal, not startVal
     });
 
     it('sets isComplete', async () => {
@@ -124,7 +129,7 @@ describe('useObservable', () => {
 
       act(() => observable$.next('val'));
       expect(result.current.isComplete).toEqual(false);
-      
+
       act(() => observable$.complete());
       await waitFor(() => expect(result.current.isComplete).toEqual(true));
     });
@@ -141,7 +146,7 @@ describe('useObservable', () => {
 
       // @ts-expect-error we're trying to break useObservable
       expect(() => renderHook(() => useObservable(undefined, observable$, { suspense: true }))).toThrow(
-        Error('cannot call useObservable without an observableId')
+        Error('cannot call useObservable without an observableId'),
       );
 
       spy.mockRestore();
@@ -205,7 +210,7 @@ describe('useObservable', () => {
       const { queryByTestId, getByTestId } = render(
         <React.Suspense fallback={<FallbackComponent />}>
           <Component />
-        </React.Suspense>
+        </React.Suspense>,
       );
 
       // make sure Suspense renders the fallback component if the observable has not emitted a value

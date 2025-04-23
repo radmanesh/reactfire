@@ -49,7 +49,7 @@ Error.constructor
 
 #### Defined in
 
-[src/index.ts:15](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L15)
+[src/index.ts:15](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L15)
 
 ## Properties
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:15](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L15)
+[src/index.ts:15](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L15)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:15](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L15)
+[src/index.ts:15](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L15)
 
 ___
 
@@ -111,7 +111,7 @@ Error.name
 
 #### Defined in
 
-[src/index.ts:13](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L13)
+[src/index.ts:13](https://github.com/radmanesh/reactfire/blob/main/src/index.ts#L13)
 
 ___
 
